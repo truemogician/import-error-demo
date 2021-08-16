@@ -1,0 +1,14 @@
+{
+	"name": "import-error-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"start": "tsc -p tsconfig.json && node build/index.js",
+		"build": "tsc -p tsconfig.json",
+		"run": "node build/index.js"
+	},
+	"author": "",
+	"license": "MIT",
+	"type": "module"
+}
